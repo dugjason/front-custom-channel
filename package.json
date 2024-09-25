@@ -1,0 +1,27 @@
+{
+  "name": "front-custom-channel",
+  "version": "1.0.0",
+  "description": "Front custom channel webhook receiver, built with Hono",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "env-cmd tsx watch src/index.ts"
+  },
+  "keywords": [
+    "frontapp",
+    "front.com",
+    "front custom channel",
+    "hono"
+  ],
+  "author": "Jason Dugdale - github.com/dugjason",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "env-cmd": "10.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
